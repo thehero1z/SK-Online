@@ -4,4 +4,106 @@
           box-sizing: border-box;
   margin: 0;
 }
+
+.logo img {
+  width: 37%;
+  z-index: 9;
+}
+
+body {
+  margin: 1.5rem;
+  font-family: 'Poppins',sans-serif;
+}
+
+h1 {
+  font-family: 'Open Sans',sans-serif;
+  font-weight: 700;
+  line-height: 3rem;
+  font-size: 3rem;
+  margin-top: 3em;
+  background: -webkit-gradient(linear, left top, left bottom, from(#f6f4f4), color-stop(#f4f2f2), to(#577802));
+  background: linear-gradient(#f6f4f4, #f4f2f2, #577802);
+  -webkit-background-clip: text;
+  color: transparent;
+  z-index: 99;
+  text-shadow: 1px 1px 0  #d7d6d6,2px 2px 0  #B2EC1F,3px 3px 0  #011d09,4px 4px 0  #B2EC1F, 5px 5px 0  #699103,1px 1px 0  #B2EC1F;
+}
+
+a {
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+.subhead {
+  font-size: 1.4rem;
+  font-weight: 700;
+  z-index: 99;
+  color: #c7c7c7;
+  text-shadow: 1px 1px 0  #06b211,2px 2px 0  #435d03;
+}
+
+.hero-img {
+  background: url("/images /image1.jpeg");
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  z-index: -1;
+}
+
+nav {
+  position: fixed;
+  right: 0;
+  top: 0;
+  background: white;
+  height: 100vh;
+  width: 50%;
+  z-index: 999;
+  text-transform: uppercase;
+  -webkit-transform: translateX(100%);
+          transform: translateX(100%);
+  -webkit-transition: -webkit-transform .5s ease-in-out;
+  transition: -webkit-transform .5s ease-in-out;
+  transition: transform .5s ease-in-out;
+  transition: transform .5s ease-in-out, -webkit-transform .5s ease-in-out;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 8em;
+}
+
+nav ul a {
+  color: #03b30e;
+  padding: 1.3em 2em;
+  display: block;
+}
+
+nav ul a:hover {
+  background: #c7f2c9;
+}
+
+nav .close {
+  float: right;
+  margin: 1.5em;
+  width: 2.2em;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header svg {
+  width: 4.2em;
+  margin-top: -.6em;
+  cursor: pointer;
+}
 /*# sourceMappingURL=main.css.map */
