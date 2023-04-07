@@ -116,6 +116,8 @@ header svg {
   -o-object-fit: cover;
      object-fit: cover;
   height: 26em;
+  margin-top: 2em;
+  -webkit-filter: drop-shadow(12px 12px 7px rgba(26, 160, 55, 0.5));
 }
 
 .about .title {
@@ -127,5 +129,23 @@ header svg {
 
 .about .desc {
   line-height: 1.7rem;
+}
+
+.about .social-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 2em;
+  margin-left: 1.1em;
+  margin-top: 1.4em;
+}
+
+.about ion-icon {
+  font-size: 2em;
+  color: #03b30e;
+}
+
+.about svg {
+  width: 2em;
 }
 /*# sourceMappingURL=main.css.map */
