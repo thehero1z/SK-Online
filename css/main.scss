@@ -96,7 +96,7 @@ header{
     img{
         width: 100%;
         object-fit: cover;
-        height: 26em;
+        height: 28em;
         margin-top: 2em;
         -webkit-filter: drop-shadow(12px 12px 7px rgba(26, 160, 55, 0.5));
     }
@@ -153,4 +153,37 @@ footer{
         margin-top: .9em;
         text-transform: uppercase;
     }
+}
+@media only screen and (min-width:680px) {
+ body{
+    margin: 1.5em 5em;
+
+ }
+ .about{
+     img{
+        width: 100%;
+        object-fit: cover;
+        height: 29em;
+     }
+   .desc{
+    line-height: 1.6rem;
+   }
+
+.social-links {
+   display: flex;
+   gap: 2em;
+   margin-left: 3em;
+   margin-top: 1.4em;
+ 
+}
+ion-icon{
+   font-size: 2em;
+   color: #03b30e;
+  
+   
+}
+svg{
+    width: 2em;
+}
+ }
 }
