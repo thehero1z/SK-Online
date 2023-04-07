@@ -44,10 +44,10 @@ a {
 
 .hero-img {
   background: url("/images /image1.jpeg");
+  background-size: cover;
   position: absolute;
   top: 0;
   left: 0;
-  background-size: cover;
   width: 100%;
   height: 100vh;
   z-index: -1;
@@ -105,5 +105,27 @@ header svg {
   width: 4.2em;
   margin-top: -.6em;
   cursor: pointer;
+}
+
+.about {
+  margin-top: 22rem;
+}
+
+.about img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 26em;
+}
+
+.about .title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  font-family: 'Rubik Pixels', cursive;
+  color: #03be10;
+}
+
+.about .desc {
+  line-height: 1.7rem;
 }
 /*# sourceMappingURL=main.css.map */
