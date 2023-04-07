@@ -127,3 +127,30 @@ header{
         width: 2em;
     }
 }
+
+footer{
+   margin-top: 3em;
+  width: 100%;
+  
+  a{
+    color: #03be10;
+    font-size: 1rem;
+  }
+
+    ul{
+        text-decoration: none;
+        list-style: none;
+        display: flex;
+       justify-content: space-between;
+       gap: 2em;
+       
+        
+    }
+    .footer-reserved{
+        font-size: .7rem;
+        display: flex;
+        justify-content: space-between;
+        margin-top: .9em;
+        text-transform: uppercase;
+    }
+}
