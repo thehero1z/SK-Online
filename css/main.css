@@ -185,6 +185,11 @@ footer .footer-reserved {
   text-transform: uppercase;
 }
 
+.open-nav {
+  -webkit-transform: translateX(0%);
+          transform: translateX(0%);
+}
+
 @media only screen and (min-width: 680px) {
   body {
     margin: 1.5em 5em;
