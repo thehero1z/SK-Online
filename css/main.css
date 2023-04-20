@@ -214,4 +214,42 @@ footer .footer-reserved {
     width: 2em;
   }
 }
+
+@media only screen and (min-width: 920px) {
+  .menu {
+    display: none;
+  }
+  nav {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    position: unset;
+    display: block;
+    width: auto;
+    height: auto;
+    background: none;
+  }
+  nav svg.close {
+    display: none;
+  }
+  nav ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0;
+  }
+  nav ul a {
+    font-weight: 700;
+    padding: .5em 1.5em;
+  }
+  nav ul a:hover {
+    color: #B2EC1F;
+    background: none;
+  }
+  .hero-img {
+    left: unset;
+    right: 0;
+    width: 50%;
+    height: 48.5em;
+  }
+}
 /*# sourceMappingURL=main.css.map */
