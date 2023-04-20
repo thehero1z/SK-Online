@@ -2,15 +2,20 @@
     padding: 0;
     box-sizing: border-box;
     margin: 0;
+   
 }
 .logo img{
-    width: 37%;
+    width: 39%;
     z-index: 9;
 }
 body{
+    
     margin: 1.5rem;
     font-family: 'Poppins',sans-serif;
+    color: #03b30e;
+    background-color: #000;
 }
+
 h1{
     font-family: 'Open Sans',sans-serif;
     font-weight: 700;
@@ -85,7 +90,7 @@ header{
     justify-content: space-between;
 
     svg{
-        width: 4.2em;
+        width: 2.5em;
         margin-top: -.6em ;
         cursor: pointer;
        
