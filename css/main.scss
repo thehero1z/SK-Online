@@ -2,15 +2,14 @@
     padding: 0;
     box-sizing: border-box;
     margin: 0;
-   
 }
 .logo img{
     width: 39%;
     z-index: 9;
 }
 body{
-    
-    margin: 1.5rem;
+
+    // margin: 1.5rem;
     font-family: 'Poppins',sans-serif;
     color: #03b30e;
     background-color: #000;
@@ -97,7 +96,8 @@ header{
     }
 }
 .about{
-    margin-top: 22rem;
+    margin-top: 28em;
+   
     img{
         width: 100%;
         object-fit: cover;
@@ -118,14 +118,13 @@ header{
     .social-links{
        display: flex;
        gap: 2em;
-       margin-left: 1.1em;
+       margin-left: 2.2em;
        margin-top: 1.4em;
      
     }
     ion-icon{
        font-size: 2em;
-       color: #03b30e;
-      
+       color: #03b30e;  
        
     }
     svg{
